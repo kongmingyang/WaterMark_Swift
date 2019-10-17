@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C6E1C423570AF700950668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1C323570AF700950668 /* AppDelegate.swift */; };
+		F5C6E1C623570AF700950668 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1C523570AF700950668 /* SceneDelegate.swift */; };
+		F5C6E1C823570AF700950668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1C723570AF700950668 /* ViewController.swift */; };
+		F5C6E1CB23570AF700950668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C6E1C923570AF700950668 /* Main.storyboard */; };
+		F5C6E1CD23570AF800950668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C6E1CC23570AF800950668 /* Assets.xcassets */; };
+		F5C6E1D023570AF800950668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C6E1CE23570AF800950668 /* LaunchScreen.storyboard */; };
+		F5C6E1DB23570AF800950668 /* WaterMark_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1DA23570AF800950668 /* WaterMark_swiftTests.swift */; };
+		F5C6E1E623570AF900950668 /* WaterMark_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1E523570AF900950668 /* WaterMark_swiftUITests.swift */; };
+		F5C6E1F423570B2500950668 /* WaterMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1F323570B2500950668 /* WaterMarkView.swift */; };
+		F5C6E1F62357173F00950668 /* dl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C6E1F52357173F00950668 /* dl.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5C6E1D723570AF800950668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C6E1B823570AF700950668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C6E1BF23570AF700950668;
+			remoteInfo = "WaterMark-swift";
+		};
+		F5C6E1E223570AF900950668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C6E1B823570AF700950668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C6E1BF23570AF700950668;
+			remoteInfo = "WaterMark-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C6E1C023570AF700950668 /* WaterMark-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WaterMark-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6E1C323570AF700950668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5C6E1C523570AF700950668 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5C6E1C723570AF700950668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5C6E1CA23570AF700950668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5C6E1CC23570AF800950668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C6E1CF23570AF800950668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C6E1D123570AF800950668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C6E1D623570AF800950668 /* WaterMark-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterMark-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6E1DA23570AF800950668 /* WaterMark_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMark_swiftTests.swift; sourceTree = "<group>"; };
+		F5C6E1DC23570AF800950668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C6E1E123570AF900950668 /* WaterMark-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterMark-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6E1E523570AF900950668 /* WaterMark_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMark_swiftUITests.swift; sourceTree = "<group>"; };
+		F5C6E1E723570AF900950668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C6E1F323570B2500950668 /* WaterMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMarkView.swift; sourceTree = "<group>"; };
+		F5C6E1F52357173F00950668 /* dl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dl.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C6E1BD23570AF700950668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6E1D323570AF800950668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6E1DE23570AF900950668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C6E1B723570AF700950668 = {
+			isa = PBXGroup;
+			children = (
+				F5C6E1C223570AF700950668 /* WaterMark-swift */,
+				F5C6E1D923570AF800950668 /* WaterMark-swiftTests */,
+				F5C6E1E423570AF900950668 /* WaterMark-swiftUITests */,
+				F5C6E1C123570AF700950668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C6E1C123570AF700950668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6E1C023570AF700950668 /* WaterMark-swift.app */,
+				F5C6E1D623570AF800950668 /* WaterMark-swiftTests.xctest */,
+				F5C6E1E123570AF900950668 /* WaterMark-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C6E1C223570AF700950668 /* WaterMark-swift */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6E1C323570AF700950668 /* AppDelegate.swift */,
+				F5C6E1C523570AF700950668 /* SceneDelegate.swift */,
+				F5C6E1C723570AF700950668 /* ViewController.swift */,
+				F5C6E1F323570B2500950668 /* WaterMarkView.swift */,
+				F5C6E1F52357173F00950668 /* dl.jpg */,
+				F5C6E1C923570AF700950668 /* Main.storyboard */,
+				F5C6E1CC23570AF800950668 /* Assets.xcassets */,
+				F5C6E1CE23570AF800950668 /* LaunchScreen.storyboard */,
+				F5C6E1D123570AF800950668 /* Info.plist */,
+			);
+			path = "WaterMark-swift";
+			sourceTree = "<group>";
+		};
+		F5C6E1D923570AF800950668 /* WaterMark-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6E1DA23570AF800950668 /* WaterMark_swiftTests.swift */,
+				F5C6E1DC23570AF800950668 /* Info.plist */,
+			);
+			path = "WaterMark-swiftTests";
+			sourceTree = "<group>";
+		};
+		F5C6E1E423570AF900950668 /* WaterMark-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6E1E523570AF900950668 /* WaterMark_swiftUITests.swift */,
+				F5C6E1E723570AF900950668 /* Info.plist */,
+			);
+			path = "WaterMark-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C6E1BF23570AF700950668 /* WaterMark-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6E1EA23570AF900950668 /* Build configuration list for PBXNativeTarget "WaterMark-swift" */;
+			buildPhases = (
+				F5C6E1BC23570AF700950668 /* Sources */,
+				F5C6E1BD23570AF700950668 /* Frameworks */,
+				F5C6E1BE23570AF700950668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaterMark-swift";
+			productName = "WaterMark-swift";
+			productReference = F5C6E1C023570AF700950668 /* WaterMark-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C6E1D523570AF800950668 /* WaterMark-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6E1ED23570AF900950668 /* Build configuration list for PBXNativeTarget "WaterMark-swiftTests" */;
+			buildPhases = (
+				F5C6E1D223570AF800950668 /* Sources */,
+				F5C6E1D323570AF800950668 /* Frameworks */,
+				F5C6E1D423570AF800950668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C6E1D823570AF800950668 /* PBXTargetDependency */,
+			);
+			name = "WaterMark-swiftTests";
+			productName = "WaterMark-swiftTests";
+			productReference = F5C6E1D623570AF800950668 /* WaterMark-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C6E1E023570AF900950668 /* WaterMark-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6E1F023570AF900950668 /* Build configuration list for PBXNativeTarget "WaterMark-swiftUITests" */;
+			buildPhases = (
+				F5C6E1DD23570AF900950668 /* Sources */,
+				F5C6E1DE23570AF900950668 /* Frameworks */,
+				F5C6E1DF23570AF900950668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C6E1E323570AF900950668 /* PBXTargetDependency */,
+			);
+			name = "WaterMark-swiftUITests";
+			productName = "WaterMark-swiftUITests";
+			productReference = F5C6E1E123570AF900950668 /* WaterMark-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C6E1B823570AF700950668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "明孔";
+				TargetAttributes = {
+					F5C6E1BF23570AF700950668 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F5C6E1D523570AF800950668 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F5C6E1BF23570AF700950668;
+					};
+					F5C6E1E023570AF900950668 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F5C6E1BF23570AF700950668;
+					};
+				};
+			};
+			buildConfigurationList = F5C6E1BB23570AF700950668 /* Build configuration list for PBXProject "WaterMark-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C6E1B723570AF700950668;
+			productRefGroup = F5C6E1C123570AF700950668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C6E1BF23570AF700950668 /* WaterMark-swift */,
+				F5C6E1D523570AF800950668 /* WaterMark-swiftTests */,
+				F5C6E1E023570AF900950668 /* WaterMark-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C6E1BE23570AF700950668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C6E1D023570AF800950668 /* LaunchScreen.storyboard in Resources */,
+				F5C6E1F62357173F00950668 /* dl.jpg in Resources */,
+				F5C6E1CD23570AF800950668 /* Assets.xcassets in Resources */,
+				F5C6E1CB23570AF700950668 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6E1D423570AF800950668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6E1DF23570AF900950668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C6E1BC23570AF700950668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C6E1C823570AF700950668 /* ViewController.swift in Sources */,
+				F5C6E1C423570AF700950668 /* AppDelegate.swift in Sources */,
+				F5C6E1C623570AF700950668 /* SceneDelegate.swift in Sources */,
+				F5C6E1F423570B2500950668 /* WaterMarkView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6E1D223570AF800950668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C6E1DB23570AF800950668 /* WaterMark_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6E1DD23570AF900950668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C6E1E623570AF900950668 /* WaterMark_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C6E1D823570AF800950668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C6E1BF23570AF700950668 /* WaterMark-swift */;
+			targetProxy = F5C6E1D723570AF800950668 /* PBXContainerItemProxy */;
+		};
+		F5C6E1E323570AF900950668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C6E1BF23570AF700950668 /* WaterMark-swift */;
+			targetProxy = F5C6E1E223570AF900950668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5C6E1C923570AF700950668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C6E1CA23570AF700950668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5C6E1CE23570AF800950668 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C6E1CF23570AF800950668 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C6E1E823570AF900950668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C6E1E923570AF900950668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C6E1EB23570AF900950668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WaterMark-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hope.WaterMark-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C6E1EC23570AF900950668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WaterMark-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hope.WaterMark-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5C6E1EE23570AF900950668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WaterMark-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hope.WaterMark-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark-swift.app/WaterMark-swift";
+			};
+			name = Debug;
+		};
+		F5C6E1EF23570AF900950668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WaterMark-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hope.WaterMark-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark-swift.app/WaterMark-swift";
+			};
+			name = Release;
+		};
+		F5C6E1F123570AF900950668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WaterMark-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hope.WaterMark-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WaterMark-swift";
+			};
+			name = Debug;
+		};
+		F5C6E1F223570AF900950668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WaterMark-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hope.WaterMark-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WaterMark-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C6E1BB23570AF700950668 /* Build configuration list for PBXProject "WaterMark-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6E1E823570AF900950668 /* Debug */,
+				F5C6E1E923570AF900950668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6E1EA23570AF900950668 /* Build configuration list for PBXNativeTarget "WaterMark-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6E1EB23570AF900950668 /* Debug */,
+				F5C6E1EC23570AF900950668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6E1ED23570AF900950668 /* Build configuration list for PBXNativeTarget "WaterMark-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6E1EE23570AF900950668 /* Debug */,
+				F5C6E1EF23570AF900950668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6E1F023570AF900950668 /* Build configuration list for PBXNativeTarget "WaterMark-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6E1F123570AF900950668 /* Debug */,
+				F5C6E1F223570AF900950668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C6E1B823570AF700950668 /* Project object */;
+}

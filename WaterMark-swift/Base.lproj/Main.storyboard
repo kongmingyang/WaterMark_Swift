@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WaterMark_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ICi-Po-x9N">
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vh-WA-Os3">
+                                <rect key="frame" x="20" y="792" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ZfA-K8-wb6"/>
+                                    <constraint firstAttribute="height" constant="50" id="kZQ-vb-eUC"/>
+                                </constraints>
+                                <state key="normal" title="填加水印"/>
+                                <connections>
+                                    <action selector="addWater:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQs-9X-e9h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yG-Al-TGt">
+                                <rect key="frame" x="294" y="802" width="100" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MT5-t5-idv"/>
+                                    <constraint firstAttribute="width" constant="100" id="Wf9-PF-WZ8"/>
+                                </constraints>
+                                <state key="normal" title="移除水印"/>
+                                <connections>
+                                    <action selector="removeWater:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sF9-Hg-KQW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ICi-Po-x9N" secondAttribute="trailing" id="4zo-0Y-tWd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0yG-Al-TGt" secondAttribute="trailing" constant="20" id="EHW-BE-hGR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ICi-Po-x9N" secondAttribute="bottom" constant="100" id="Egi-eK-Qg2"/>
+                            <constraint firstItem="1vh-WA-Os3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cRK-Lx-08P"/>
+                            <constraint firstItem="ICi-Po-x9N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lUe-4a-EC3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1vh-WA-Os3" secondAttribute="bottom" constant="20" id="n6r-RA-OVw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0yG-Al-TGt" secondAttribute="bottom" constant="20" id="r1C-Au-iMt"/>
+                            <constraint firstItem="ICi-Po-x9N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zjy-cM-WoH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="ICi-Po-x9N" id="mVQ-Tl-Jeq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dl.jpg" width="500" height="887"/>
+    </resources>
+</document>
