@@ -15,8 +15,8 @@
 		F5C6E1D023570AF800950668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C6E1CE23570AF800950668 /* LaunchScreen.storyboard */; };
 		F5C6E1DB23570AF800950668 /* WaterMark_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1DA23570AF800950668 /* WaterMark_swiftTests.swift */; };
 		F5C6E1E623570AF900950668 /* WaterMark_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1E523570AF900950668 /* WaterMark_swiftUITests.swift */; };
-		F5C6E1F423570B2500950668 /* WaterMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C6E1F323570B2500950668 /* WaterMarkView.swift */; };
 		F5C6E1F62357173F00950668 /* dl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5C6E1F52357173F00950668 /* dl.jpg */; };
+		F5E51718235817EC00C5E2BE /* WaterMart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E51717235817EC00C5E2BE /* WaterMart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		F5C6E1E123570AF900950668 /* WaterMark-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterMark-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C6E1E523570AF900950668 /* WaterMark_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMark_swiftUITests.swift; sourceTree = "<group>"; };
 		F5C6E1E723570AF900950668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5C6E1F323570B2500950668 /* WaterMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMarkView.swift; sourceTree = "<group>"; };
 		F5C6E1F52357173F00950668 /* dl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dl.jpg; sourceTree = "<group>"; };
+		F5E51717235817EC00C5E2BE /* WaterMart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterMart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				F5C6E1C323570AF700950668 /* AppDelegate.swift */,
 				F5C6E1C523570AF700950668 /* SceneDelegate.swift */,
 				F5C6E1C723570AF700950668 /* ViewController.swift */,
-				F5C6E1F323570B2500950668 /* WaterMarkView.swift */,
+				F5E51717235817EC00C5E2BE /* WaterMart.swift */,
 				F5C6E1F52357173F00950668 /* dl.jpg */,
 				F5C6E1C923570AF700950668 /* Main.storyboard */,
 				F5C6E1CC23570AF800950668 /* Assets.xcassets */,
@@ -269,7 +269,7 @@
 				F5C6E1C823570AF700950668 /* ViewController.swift in Sources */,
 				F5C6E1C423570AF700950668 /* AppDelegate.swift in Sources */,
 				F5C6E1C623570AF700950668 /* SceneDelegate.swift in Sources */,
-				F5C6E1F423570B2500950668 /* WaterMarkView.swift in Sources */,
+				F5E51718235817EC00C5E2BE /* WaterMart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
